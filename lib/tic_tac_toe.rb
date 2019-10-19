@@ -75,8 +75,13 @@ class TicTacToe
   
   def draw?
     !(won?)  && (full?)
-  end  
- 
+  end
+  
+  def over?
+    won? || full? || draw?
+  end
+  
+  
  
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
