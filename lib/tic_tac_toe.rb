@@ -120,7 +120,7 @@ end
 puts "Welcome to Tic Tac Toe!"
 #game = TicTacToe.new
 #game.display_board
-game.play
+#game.play
 
 
 
