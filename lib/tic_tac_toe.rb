@@ -61,7 +61,9 @@ class TicTacToe
       end  
   end  
   
-  
+  def won?
+    
+  end  
  
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
