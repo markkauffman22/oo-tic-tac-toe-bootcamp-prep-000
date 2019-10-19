@@ -62,7 +62,8 @@ class TicTacToe
   end  
   
   def won?
-    # .detect  returns the first item in
+    # .detect  returns the first item in the collection for which the 
+    #  block returns TRUE and returns nil if it doesn't find any.
     WIN_COMBINATIONS.detect do |win_combo|
     
   end  
