@@ -71,7 +71,11 @@ class TicTacToe
       end
         false
     end
-  end        
+  end  
+  
+  def draw?
+    
+  end  
  
  
   def display_board
