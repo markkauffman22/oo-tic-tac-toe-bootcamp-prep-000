@@ -117,8 +117,11 @@ end
 #require 'pry'
 #require_relative '../lib/tic_tac_toe.rb'
 
-#game = TicTacToe.new
-#game.play
+puts "Welcome to Tic Tac Toe!"
+game = TicTacToe.new
+game.display_board
+game.play
+
 
 
 
