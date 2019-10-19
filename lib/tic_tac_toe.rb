@@ -113,7 +113,7 @@ class TicTacToe
   end
 end
 
-########  ./bin/tictactoe   ##########
+#  ./bin/tictactoe
 #require 'pry'
 #require_relative '../lib/tic_tac_toe.rb'
 
