@@ -81,7 +81,10 @@ class TicTacToe
     won? || full? || draw?
   end
   
-  
+  def winner
+    current_player ? won?
+      win_co
+  end  
  
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
