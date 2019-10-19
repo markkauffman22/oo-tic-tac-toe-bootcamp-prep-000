@@ -65,8 +65,15 @@ class TicTacToe
     # .detect  returns the first item in the collection for which the 
     #  block returns TRUE and returns nil if it doesn't find any.
     WIN_COMBINATIONS.detect do |win_combo|
-    
-  end  
+      if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
+        return win_combo
+      elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]]) == "O"
+        return win_combo
+      end
+        false
+    end
+  end        
+ 
  
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
