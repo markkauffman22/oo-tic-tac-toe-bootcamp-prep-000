@@ -53,6 +53,7 @@ class TicTacToe
       input = gets.strip
       
       # calls #input_to_index, #valid_move?, and #current_player
+      if valid_move(inpit)
       index = input_to_index(input)
       value = current_player(@board)
   end  
