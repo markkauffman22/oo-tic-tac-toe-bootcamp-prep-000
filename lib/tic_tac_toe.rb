@@ -83,7 +83,6 @@ class TicTacToe
   
   def winner
     won? ? current_player : nil
-      win_co
   end  
  
   def display_board
