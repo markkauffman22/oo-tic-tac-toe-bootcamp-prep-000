@@ -62,7 +62,7 @@ class TicTacToe
   end  
   
   def won?
-    # .detect 
+    # .detect  returns the first item in
     WIN_COMBINATIONS.detect do |win_combo|
     
   end  
