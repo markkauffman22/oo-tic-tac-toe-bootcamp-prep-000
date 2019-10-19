@@ -54,7 +54,8 @@ class TicTacToe
       index = input_to_index(input)
       # calls #input_to_index, #valid_move?, and #current_player
       if valid_move(index)
-      value = current_player(@board)
+         value = current_player(@board)
+         move(index, current_player)
   end  
  
   def display_board
