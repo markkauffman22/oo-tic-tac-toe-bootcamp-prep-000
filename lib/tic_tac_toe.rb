@@ -36,7 +36,8 @@ class TicTacToe
   end  
   
   def valid_move(i)
-    !position_taken?(i) && (i>0 && i<8)
+    position_taken?(i)
+    #!position_taken?(i) && (i>0 && i<8)
     #(!position_taken?(i)) && ((i > 8) && (i < 0))
   end  
   
