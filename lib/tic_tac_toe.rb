@@ -36,8 +36,8 @@ class TicTacToe
     !(@board[index].nil? || @board[index] == " ")
   end  
   
-  def valid_move?(i)
-    !position_taken?(i) && (i>=0 && i<=8)
+  def valid_move?(index)
+    !position_taken?(index) && (index > 0 && index < 8)
   end  
   
   def current_player
@@ -53,7 +53,7 @@ class TicTacToe
       input = gets.strip
       
       # calls #input_to_index, #valid_move?, and #current_player
-      if valid_move(inpit)
+      if valid_move(index)
       index = input_to_index(input)
       value = current_player(@board)
   end  
