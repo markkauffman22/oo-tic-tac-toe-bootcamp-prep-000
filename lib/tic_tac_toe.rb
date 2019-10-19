@@ -13,7 +13,6 @@ class TicTacToe
     ]
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
-    @position_taken = false
   end
   
   def empty?
