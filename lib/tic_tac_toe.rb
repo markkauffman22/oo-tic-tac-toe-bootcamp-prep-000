@@ -37,8 +37,7 @@ class TicTacToe
   end  
   
   def valid_move?(i)
-    @position_taken = position_taken?(i) && (i>0 && i<8)
-    !@position_taken) 
+    position_taken?(i) && (i>0 && i<8)
   end  
   
   def current_player
