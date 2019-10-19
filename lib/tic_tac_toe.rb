@@ -114,7 +114,11 @@ class TicTacToe
 end
 
 ########  ./bin/tictactoe   ##########
+#require 'pry'
+#require_relative '../lib/tic_tac_toe.rb'
 
+#game = TicTacToe.new
+#game.play
 
 
 
