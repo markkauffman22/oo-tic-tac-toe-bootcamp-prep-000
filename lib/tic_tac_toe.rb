@@ -52,9 +52,9 @@ class TicTacToe
       puts "Please enter 1-9:"
       input = gets.strip
       
-      
+      # calls #input_to_index, #valid_move?, and #current_player
       index = input_to_index(input)
-      value = current_player(board)
+      value = current_player(@board)
   end  
  
   def display_board
